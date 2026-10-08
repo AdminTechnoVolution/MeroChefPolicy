@@ -1,0 +1,19 @@
+:root {
+  /* Mero Chef's identity: the cream of the hat, the green of the leaves, the orange of the spoon. */
+  --brand-cream: #fef3dc;
+  --brand-green: #3ca534;
+  --brand-orange: #eeab62;
+
+  /* The brand green is too light for text on cream (2.9:1), so links and the title use a darker sibling of it (4.8:1). */
+  --color-primary: #2a7b24;
+  --color-primary-dark: #1f5e1b;
+  --color-background: var(--brand-cream);
+  --color-text-main: #2a2417;
+  --color-text-secondary: #675a40;
+  --color-border: #e6d7b0;
+  --color-border-strong: #8f8160;
+  --color-surface: #fffaf0;
+  --color-tint: #f9ecce;
+  --max-content-width: 720px;
+  --header-height: 64px;
+}

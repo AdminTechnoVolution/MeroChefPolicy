@@ -1,0 +1,60 @@
+.article {
+  color: var(--color-text-main);
+}
+
+.title {
+  font-size: clamp(1.75rem, 4vw, 2.25rem);
+  margin-bottom: 1.5rem;
+  color: var(--color-primary);
+}
+
+.section {
+  margin-bottom: 2rem;
+  /* A link to a section must not leave its title under the sticky header. */
+  scroll-margin-top: calc(var(--header-height) + 1rem);
+}
+
+.section h2 {
+  font-size: 1.25rem;
+  color: var(--color-text-main);
+  margin-top: 0;
+}
+
+.subsection {
+  margin: 1.25rem 0;
+}
+
+.subsection h3 {
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--color-text-main);
+  margin-bottom: 0.5rem;
+}
+
+.linksBlock {
+  margin-top: 1.25rem;
+  padding: 1rem 1.25rem;
+  background: var(--color-tint);
+  border-left: 4px solid var(--brand-orange);
+  border-radius: 8px;
+}
+
+.linksBlock h3 {
+  font-size: 0.9375rem;
+  margin: 0 0 0.75rem;
+}
+
+.linksList {
+  margin: 0;
+  padding-left: 1.25rem;
+}
+
+.linksList a {
+  font-weight: 500;
+}
+
+@media (max-width: 480px) {
+  .section h2 {
+    font-size: 1.125rem;
+  }
+}

@@ -1,0 +1,301 @@
+{
+  "meta": {
+    "title": "Datenschutzerklärung",
+    "pageTitle": "Datenschutzerklärung von Mero Chef"
+  },
+  "header": {
+    "appName": "Mero Chef",
+    "subtitle": "Datenschutzerklärung"
+  },
+  "language": {
+    "label": "Sprache"
+  },
+  "footer": {
+    "effectiveDate": "Gültig ab: {{date}}",
+    "contact": "Fragen? Kontaktieren Sie uns unter"
+  },
+  "sections": {
+    "introduction": {
+      "title": "Einleitung",
+      "paragraphs": [
+        "Techno Volution („wir“, „uns“ oder „unser“) betreibt Mero Chef, eine App für Android und iOS, die verfolgt, welche Lebensmittel Sie zu Hause haben, Sie warnt, bevor sie ablaufen, und mithilfe künstlicher Intelligenz Rezepte vorschlägt. Diese Datenschutzerklärung erläutert, wie wir Informationen erfassen, verwenden und schützen, wenn Sie die Mero-Chef-App und diese Website nutzen.",
+        "Diese Erklärung beschreibt unsere Datenpraktiken; sie zu lesen oder Mero Chef zu nutzen stellt für sich genommen keine Einwilligung in optionale Verarbeitungen dar. Sie können Ihren Vorrat, die Mindestbestandswarnungen, die Ablauferinnerungen und Ihre gespeicherten Rezepte ohne Konto nutzen, und diese Informationen bleiben auf Ihrem Telefon. Funktionen, die künstliche Intelligenz nutzen, erfordern ein Konto. Werbung kann, sobald sie vorhanden ist, auch dann Daten verarbeiten, wenn Sie nicht angemeldet sind."
+      ]
+    },
+    "informationCollection": {
+      "title": "Erfassung und Verwendung von Informationen",
+      "paragraphs": [
+        "Mero Chef speichert Ihren Vorrat auf Ihrem Telefon. Was wir darüber hinaus verarbeiten, hängt von den Funktionen ab, die Sie nutzen."
+      ],
+      "subsections": [
+        {
+          "title": "Lokale Nutzung (ohne Konto)",
+          "paragraphs": [
+            "Das Folgende wird ausschließlich auf Ihrem Gerät gespeichert, in einer lokalen Datenbank und im privaten Speicher der App: die Zutaten, die Sie hinzufügen (Name, Menge, Einheit, Kategorie, Lagerort, Ablaufdatum und Emoji); ein Protokoll darüber, wann Sie etwas als verbraucht markieren oder entfernen, das zur Berechnung Ihrer Verschwendungskennzahl dient; die Mindestmengen, die Sie für Nachkaufwarnungen festlegen; die Rezepte, die Sie speichern, und die Schritte, die Sie abgehakt haben; die Lebensmittel, die die App Ihnen schon vorgeschlagen hat, nach Sprache und Land gemerkt, damit sie beim nächsten Mal sofort erscheinen; und Ihre Ernährungseinstellungen.",
+            "Nichts davon wird hochgeladen, es sei denn, Sie nutzen eine unten beschriebene Online-Funktion. Unter Android schaltet Mero Chef für die App die Cloud-Sicherung und die Geräte-zu-Geräte-Übertragung aus, sodass diese Informationen nicht automatisch anderswohin kopiert werden. Unter iOS können Sicherungen des Betriebssystems, etwa iCloud oder eine Sicherung auf dem Computer, je nach Geräteeinstellungen die Daten der App enthalten. Das Deinstallieren der App oder das Löschen ihres Speichers entfernt die Daten von Ihrem Gerät."
+          ]
+        },
+        {
+          "title": "Optionales Google-Konto",
+          "paragraphs": [
+            "Um die KI-Funktionen zu nutzen, melden Sie sich mit Google an (oder unter iOS mit Apple, wie unten beschrieben). Über Google Sign-In erhalten wir die Kennung Ihres Google-Kontos, Ihre E-Mail-Adresse und Ihren Anzeigenamen und speichern sie, um Ihr Mero-Chef-Konto zu erstellen und zu verwalten. Wir erhalten weder Ihr Google-Passwort noch andere Google-Daten wie Ihre Kontakte. Google verarbeitet diese Informationen gemäß seiner eigenen Datenschutzerklärung.",
+            "Bei der Anmeldung sendet Ihr Telefon außerdem eine zufällige Installationskennung, die von der App erzeugt wird und nicht mit Ihrer Werbe-ID oder Hardware-Kennungen verknüpft ist, damit Ihre Sitzungen auf verschiedenen Telefonen unterschieden werden können. Ihre Sitzungstoken werden auf Ihrem Gerät in einem sicheren Speicher abgelegt: im Android Keystore unter Android und im Schlüsselbund (Keychain) unter iOS."
+          ]
+        },
+        {
+          "title": "Optionale Anmeldung mit Apple",
+          "paragraphs": [
+            "Mit Apple anmelden liefert unter iOS eine Apple-Kontokennung und, sofern bereitgestellt, Ihren Namen und Ihre E-Mail-Adresse. E-Mail-Adresse verbergen kann eine private Apple-Relay-Adresse liefern. Wir verwenden diese Daten und Authentifizierungstokens, um Ihr Mero-Chef-Konto zu erstellen und Ihre Sitzung zu verwalten. Ihr Apple-Passwort erhalten wir nicht."
+          ]
+        },
+        {
+          "title": "KI-Funktionen",
+          "paragraphs": [
+            "Wenn Sie eine KI-Funktion nutzen, sendet die App die dafür nötigen Informationen an unsere API, die sie an einen KI-Anbieter weitergibt und Ihnen das Ergebnis zurückliefert. Je nach Funktion kann das Folgendes umfassen:"
+          ],
+          "list": [
+            "Rezepte: die Zutaten, die Sie aus Ihrem Vorrat gewählt haben (Name, Menge, Einheit, Kategorie und Ablaufdatum), das Gericht, das Sie eingegeben haben, wenn Sie ein bestimmtes Gericht wollten, Ihre Ernährungsauswahl, die Sprache der App und Ihren Ländercode.",
+            "Fotos: ein Foto eines Kassenbons oder einer Verpackung, das Sie mit der Kamera aufnehmen oder aus Ihrer Galerie oder Fotomediathek wählen. Es wird auf Ihrem Telefon verkleinert und komprimiert und zum Auslesen gesendet. Ein Kassenbon kann weitere personenbezogene Angaben zeigen, etwa das Geschäft, Kartenziffern oder Kundennummern; fotografieren Sie daher nur den Teil, den Sie brauchen.",
+            "Küchenvideo: ein Video von bis zu 20 Sekunden, das Sie aufnehmen oder wählen. Die App entnimmt ihm auf Ihrem Telefon einige Standbilder und sendet nur diese Bilder, niemals das Video.",
+            "Sprache: Wenn Sie Zutaten diktieren, wandelt der Spracherkennungsdienst Ihres Telefons Ihre Sprache in Text um, und die App sendet diesen Text (bis zu 1.500 Zeichen), damit daraus eine Liste von Artikeln wird. Mero Chef nimmt keinen Ton auf, speichert keinen und erhält ihn nie.",
+            "Namensvorschläge: Während Sie den Namen einer Zutat eingeben und nach einer kurzen Pause werden der eingegebene Text, die App-Sprache und Ihr Ländercode gesendet, um den Namen zu vervollständigen. Das geschieht nur, wenn Sie angemeldet sind; andernfalls werden die bereits auf Ihrem Telefon gemerkten Lebensmittel verwendet."
+          ]
+        },
+        {
+          "title": "Wie KI-Anfragen verarbeitet werden",
+          "paragraphs": [
+            "Unsere API sendet diese Anfragen an OpenRouter, das sie an einen Modellanbieter weiterleitet (zum Beispiel eines der Gemini-Modelle von Google). Wir bitten OpenRouter, nur Anbieter zu verwenden, die keine Daten für das Training erheben und die eine Nulldatenspeicherung (Zero Data Retention) für KI-Ein- und -Ausgaben unterstützen. Diese Routing-Vorgaben gelten für die Modellverarbeitung; sie bedeuten nicht, dass technische Metadaten, unsere Diagnoseprotokolle oder temporärer Verarbeitungskontext nie aufbewahrt werden. OpenRouter und die Modellanbieter haben eigene Datenpraktiken.",
+            "Wir speichern Ihre Fotos, Bilder, diktierten Texte oder Eingaben nicht, und unsere Protokolle erfassen nur Anzahlen und Größen (etwa wie viele Zutaten, die Größe eines Bildes oder wie viele Tokens verwendet wurden), niemals den Inhalt. Wir nehmen weder Ihren Namen noch Ihre E-Mail-Adresse in diese Anfragen auf. Verwenden Sie nur Inhalte, die Sie teilen dürfen, und vermeiden Sie es, Dokumente mit unnötigen personenbezogenen Angaben zu fotografieren."
+          ]
+        },
+        {
+          "title": "Abonnements und Kaufprüfung",
+          "paragraphs": [
+            "Google Play unter Android und der Apple App Store unter iOS wickeln die Zahlung der optionalen Monatsabonnements (Chef Junior und Chef Master) ab. Um Käufe zu prüfen und Ihnen Zugang zu gewähren, sendet die App die Kaufinformationen des Stores an unser Backend (ein Google-Play-Kauftoken und die Produktkennung oder signierte Transaktionsdaten des Apple App Store), das den Store um Bestätigung des Abonnements bittet. Dem Kauf wird eine aus Ihrem Konto abgeleitete pseudonyme Kennung beigefügt, damit er nicht für ein anderes Konto verwendet werden kann. Wir erhalten außerdem Benachrichtigungen der Stores zu diesen Abonnements, etwa zu Verlängerungen, Kündigungen und Erstattungen.",
+            "Mero Chef erhält Ihre Zahlungskartendaten nicht. Verwalten Sie Verlängerung und Kündigung in Google Play oder, wenn Sie unter iOS abonniert haben, in Ihren Apple-Account-Einstellungen."
+          ]
+        },
+        {
+          "title": "Was wir zu Ihrem Konto speichern",
+          "paragraphs": [
+            "Auf unseren Servern speichern wir nur, was für den Betrieb Ihres Kontos nötig ist:"
+          ],
+          "list": [
+            "Konto: die Kennung Ihres Google- oder Apple-Kontos, Ihre E-Mail-Adresse (die eine private Apple-Relay-Adresse sein kann), Ihren Anzeigenamen und das Datum der Kontoerstellung.",
+            "Sitzungen: einen nicht umkehrbaren Hash jedes Anmeldetokens (niemals das Token selbst), verknüpft mit Ihrem Konto und der Installationskennung, mit seinem Ablaufdatum, sowie die Einträge, die nötig sind, um eine Sitzung beim Abmelden sofort zu beenden.",
+            "Abonnements: das Kauftoken oder die Transaktionskennungen des Stores, das Produkt, den Tarif, den Status, das Ablaufdatum und die Verlängerungseinstellung.",
+            "Nutzung: wie viele Einheiten des monatlichen KI-Kontingents Ihres Tarifs Sie im laufenden Monat verbraucht haben."
+          ]
+        }
+      ]
+    },
+    "permissions": {
+      "title": "Geräteberechtigungen und Einstellungen",
+      "paragraphs": [
+        "Berechtigungen werden nur für die Funktionen verwendet, die Sie wählen. Sie können sie in den Geräteeinstellungen verweigern oder widerrufen; die zugehörige Funktion ist dann möglicherweise nicht verfügbar."
+      ],
+      "subsections": [
+        {
+          "title": "Mikrofon und Spracherkennung",
+          "paragraphs": [
+            "Das Diktieren von Zutaten nutzt das Mikrofon nur während der Aufnahme und stützt sich auf den Spracherkennungsdienst Ihres Telefons, um Text zu erzeugen. Unter iOS fragt die App zuerst nach der Berechtigung für Mikrofon und Spracherkennung. Je nach Gerät, Sprache und Dienst kann der Ton von Apple, Google oder dem auf Ihrem Telefon eingestellten Sprachanbieter aus der Ferne verarbeitet werden; eine Verarbeitung auf dem Gerät ist nicht garantiert. Mero Chef erhält und sendet nur den daraus entstandenen Text, nicht den Ton. Das Beenden oder Abbrechen der Aufnahme beendet die Mikrofonerfassung."
+          ]
+        },
+        {
+          "title": "Kamera, Fotos und Video",
+          "paragraphs": [
+            "Unter Android fragt Mero Chef nicht nach der Kamera-Berechtigung: Fotos und Videos werden mit der Kamera-App Ihres Telefons aufgenommen, oder Sie wählen sie mit der Android-Auswahl aus. Unter iOS fragt die App nach dem Kamerazugriff, wenn Sie in der App ein Foto oder Video aufnehmen, und nutzt für Ihre Auswahl die Fotoauswahl des Systems. In beiden Fällen erhält die App nur die Datei, die Sie wählen; die Auswahl eines Elements ist keine Erlaubnis zum Zugriff auf Ihre gesamte Fotomediathek. Ein Foto oder die Bilder eines Videos werden wie oben beschrieben an unsere API und an KI-Anbieter gesendet."
+          ]
+        },
+        {
+          "title": "Benachrichtigungen",
+          "paragraphs": [
+            "Ablaufwarnungen, Warnungen bei niedrigem Bestand und Küchentimer werden auf Ihrem Telefon erzeugt; unter iOS bittet die App vor dem Anzeigen von Benachrichtigungen um Ihre Erlaubnis. Wir senden keine Push-Benachrichtigungen von einem Server, und Sie können Benachrichtigungen in den Geräteeinstellungen ausschalten."
+          ]
+        },
+        {
+          "title": "Land und Sprache",
+          "paragraphs": [
+            "Um Rezepte an Ihren Wohnort anzupassen, liest die App einen Ländercode aus der App-Sprache, den Sprach- und Regionseinstellungen des Systems oder, unter Android, dem Land Ihrer SIM-Karte oder des Netzes. Sie nutzt kein GPS, fragt nicht nach der Standortberechtigung und sendet nur den zweistelligen Ländercode mit Rezept- und Vorschlagsanfragen."
+          ]
+        },
+        {
+          "title": "Werbekennung",
+          "paragraphs": [
+            "Sobald Werbung vorhanden ist, verwendet Google AdMob die Werbekennung Ihres Geräts gemäß den Geräteeinstellungen und der jeweils erforderlichen Einwilligung, wie im Abschnitt Werbung beschrieben. Unter iOS steht die Kennung nur dann für Tracking zur Verfügung, wenn Sie es erlauben, sobald die App danach fragt (App Tracking Transparency). Das ist von den Funktionen Mikrofon, Kamera und Benachrichtigungen getrennt."
+          ]
+        },
+        {
+          "title": "Worauf Mero Chef nicht zugreift",
+          "paragraphs": [
+            "Mero Chef fordert keinen Zugriff auf Ihren Standort, Ihre Kontakte, Ihren Kalender, Anruf- oder SMS-Daten oder Ihre Dateien an. Wir binden keine Analyse- oder Absturzberichts-SDKs ein, um Ihr Verhalten in der App zu verfolgen."
+          ]
+        }
+      ]
+    },
+    "logData": {
+      "title": "Protokolldaten",
+      "paragraphs": [
+        "Wenn Sie die Anmeldung, Abonnements oder KI-Funktionen nutzen, können unsere API-Server automatisch technische Protokolldaten erfassen, etwa Ihre IP-Adresse, Zeitpunkt und Pfad der Anfragen, Antwortstatus und -dauer, eine Anfragekennung und Fehlerdiagnosen. Wir verwenden diese Informationen, um unsere Dienste zu betreiben, zu sichern und zu verbessern; Ihre IP-Adresse dient außerdem dazu, missbräuchlich viele Anfragen zu begrenzen. Der Inhalt von Anfragen, etwa Ihr Vorrat, Ihre Fotos und Texte, sowie Anmeldetokens werden nicht in unsere Protokolle geschrieben.",
+        "Abgesehen von der unten beschriebenen Werbung bindet Mero Chef weder Firebase Analytics noch ähnliche Analyse-SDKs von Drittanbietern ein, um Ihr Verhalten in der App zu verfolgen."
+      ]
+    },
+    "cookies": {
+      "title": "Cookies",
+      "paragraphs": [
+        "Diese Website speichert die gewählte Sprache im localStorage des Browsers. Diese Einstellung wird weder für Werbung noch für Verhaltensverfolgung genutzt. Die Seite setzt keine Tracking-Cookies oder Web-Beacons.",
+        "Die Mero-Chef-Apps für Android und iOS verwenden keine Web-Cookies. Ihre Anmeldetokens und Einstellungen werden auf Ihrem Gerät über sichere Speichermechanismen des Betriebssystems gespeichert, etwa den Android Keystore und den iOS-Schlüsselbund (Keychain)."
+      ]
+    },
+    "advertising": {
+      "title": "Werbung",
+      "paragraphs": [
+        "Die Mero-Chef-Apps für Android und iOS zeigen Banner-Werbung von Google AdMob an oder werden dies in einer kommenden Version tun. Dieser Abschnitt gilt ab der App-Version, die Werbung enthält. AdMob und seine Werbepartner können Gerätekennungen (wie die Werbekennung Ihres Geräts), IP-Adresse, ungefähren Standort und App-Nutzungsdaten erfassen, um Anzeigen auszuliefern, zu messen und — mit Ihrer Einwilligung — zu personalisieren. Wir senden Ihren Vorrat, Ihre Rezepte, Ihre Fotos oder Ihre Kontodaten nicht an AdMob.",
+        "Unter iOS fragt die App vor dem Zugriff auf die Werbekennung für Tracking nach der Berechtigung App Tracking Transparency (ATT). Bei Ablehnung ist diese Kennung nicht für Tracking verfügbar; Anzeigen können weiterhin erscheinen, und AdMob kann technische Daten zu ihrer Auslieferung verarbeiten. Unter Android unterliegen Werbekennungen Ihren Geräteeinstellungen und der jeweils erforderlichen Werbeeinwilligung; Sie können Ihre Werbe-ID zurücksetzen oder löschen und die Personalisierung von Anzeigen in den Google-Einstellungen Ihres Geräts deaktivieren. Sie können diese Berechtigungen in den Geräteeinstellungen prüfen oder beschränken.",
+        "Unter Android bindet die App die User Messaging Platform (UMP) von Google ein, um die Werbeeinwilligung dort einzuholen, wo sie erforderlich ist, etwa im EWR, im Vereinigten Königreich und in der Schweiz, und um Ihnen zu ermöglichen, Ihre Wahl später zu ändern. Unter iOS fragt die App nach der Berechtigung App Tracking Transparency (ATT); ATT ist von der im EWR, im Vereinigten Königreich oder in der Schweiz erforderlichen Werbeeinwilligung getrennt, die dort, wo sie erforderlich ist, gesondert eingeholt wird. Sie können Plattformberechtigungen in den Geräteeinstellungen ändern und sich wegen der Werbe-Datenschutzoptionen an {{email}} wenden."
+      ]
+    },
+    "serviceProviders": {
+      "title": "Dienstleister",
+      "paragraphs": [
+        "Dritte verarbeiten Informationen für Authentifizierung, Abonnementprüfung, Spracherkennung, Werbung, KI, Infrastruktur und Datenbankdienste, wie in dieser Erklärung beschrieben. Ihre Zwecke und Datenpraktiken unterscheiden sich; lesen Sie die jeweiligen Richtlinien unten.",
+        "Jeder Anbieter arbeitet nach seiner eigenen Datenschutzrichtlinie. Wir empfehlen, diese Richtlinien über die folgenden Links zu lesen."
+      ],
+      "list": [
+        "Google — Google Sign-In sowie Google Play Billing und die Google Play Developer API für optionale Abonnements",
+        "Apple — Mit Apple anmelden, App-Store-Abonnements und Spracherkennung unter iOS",
+        "Google AdMob — Werbung in den Mero-Chef-Apps für Android und iOS, sobald Werbung vorhanden ist",
+        "OpenRouter und die Modellanbieter, die Anfragen bearbeiten — Text- und Bildverarbeitung für KI-Funktionen",
+        "Microsoft Azure — Hosting der Mero-Chef-API",
+        "MongoDB — Datenbankdienst für Konto-, Abonnement- und Nutzungsdaten",
+        "Redis — In-Memory-Speicher für Anmeldesitzungen, gehostet bei unserem Cloud-Anbieter",
+        "Google oder der konfigurierte Spracherkennungsdienst — Sprachtranskription unter Android"
+      ]
+    },
+    "internationalTransfers": {
+      "title": "Internationale Verarbeitung",
+      "paragraphs": [
+        "Unsere Anbieter für Hosting, Datenbank, Authentifizierung, Werbung, Spracherkennung und KI können Daten in anderen Ländern als Ihrem verarbeiten. Der Standort hängt vom Anbieter und von der Dienstkonfiguration ab. Internationale Übermittlungen und Verarbeitungen unterliegen dem geltenden Recht und gegebenenfalls erforderlichen Garantien. Wenden Sie sich an {{email}}, um Informationen zu Empfängern, Standorten und Garantien zu Ihren Daten zu erhalten; diese Erklärung behauptet nicht, dass alle Daten in einem einzigen Land bleiben."
+      ]
+    },
+    "retention": {
+      "title": "Datenspeicherung",
+      "paragraphs": [
+        "Lokale Daten bleiben auf Ihrem Gerät, bis Sie sie entfernen, die App deinstallieren oder den Speicher der App löschen. Dateien und Kopien, die Sie selbst anlegen, sind getrennt und unter Ihrer Kontrolle.",
+        "Ihre Konto-, Abonnement- und Nutzungsdaten werden aufbewahrt, um Ihr Konto, Ihren Tarif und dessen monatliches Kontingent bereitzustellen, bis Sie Ihr Konto löschen oder die Daten anderweitig entfernt werden. Sitzungen enden mit ihrem Ablauf oder wenn Sie sich abmelden. Die Aufbewahrung technischer Protokolle, kaufbezogener Daten und gegebenenfalls vorhandener Sicherungen richtet sich nach ihrem betrieblichen Zweck, dem Sicherheitsbedarf und den geltenden gesetzlichen Pflichten. Die Aufbewahrung bei KI-Anbietern ist im Abschnitt zur KI beschrieben; es gibt keine einheitliche Löschfrist für alle Kategorien.",
+        "Für die Aufbewahrung eines bestimmten Datensatzes oder für eine Anfrage zu Protokollen oder Sicherungen wenden Sie sich an {{email}}. Wir versprechen nicht, dass die Löschung eines Kontos sofort jede Kopie aus jedem Dienst oder Gerät entfernt."
+      ]
+    },
+    "privacyRights": {
+      "title": "Ihre Rechte und Datenschutzanfragen",
+      "paragraphs": [
+        "Techno Volution betreibt Mero Chef und ist die für dessen Datenpraktiken verantwortliche Kontaktstelle. Senden Sie Datenschutzfragen, -anfragen und -beschwerden an {{email}}. Je nach geltendem Recht können Sie Auskunft, eine Kopie Ihrer Daten, Berichtigung, Löschung, Einschränkung, Übertragbarkeit oder Widerspruch gegen die Verarbeitung verlangen und eine Einwilligung widerrufen, wenn die Verarbeitung darauf beruht.",
+        "Beschreiben Sie Ihre Anfrage und nennen Sie das betroffene Konto. Wir können Informationen verlangen, die zur Überprüfung Ihrer Identität vernünftigerweise erforderlich sind; senden Sie keine Passwörter, vollständigen Zahlungskartendaten oder unnötigen sensiblen Dokumente. Anfragen werden innerhalb der nach geltendem Recht vorgeschriebenen Fristen bearbeitet, zulässige Ausnahmen werden erläutert. Sie können sich außerdem bei der zuständigen Datenschutzbehörde beschweren, gegebenenfalls auch bei der SIC in Kolumbien.",
+        "Soweit geltendes Recht eine Rechtsgrundlage verlangt, beruhen Ihr Konto und die von Ihnen gewünschten Online-Dienste auf der Erbringung dieser Dienste; Sicherheit und Dienstwartung können, soweit zulässig, auf berechtigten Interessen beruhen; optionale Verarbeitung, die eine Einwilligung erfordert, etwa die Personalisierung von Anzeigen, beruht auf dieser Einwilligung; und gesetzlich vorgeschriebene Aufzeichnungen beruhen auf rechtlichen Verpflichtungen. Der Widerruf einer Einwilligung berührt nicht die Rechtmäßigkeit der bisherigen Verarbeitung und kann dazu führen, dass die zugehörige optionale Funktion nicht mehr funktioniert."
+      ]
+    },
+    "security": {
+      "title": "Sicherheit",
+      "paragraphs": [
+        "Wir ergreifen angemessene Maßnahmen zum Schutz Ihrer Informationen, darunter HTTPS-Verschlüsselung bei der Übertragung, kurzlebige Zugriffstokens und einmal verwendbare Erneuerungstokens für den API-Zugriff, die Speicherung nur eines nicht umkehrbaren Hashs jedes Erneuerungstokens auf unseren Servern, den sofortigen Widerruf von Sitzungen, wenn Sie sich abmelden oder Ihr Konto löschen, und den Schutz Ihrer Anmeldetokens auf Ihrem Telefon durch den Android Keystore oder den iOS-Schlüsselbund (Keychain).",
+        "Keine Methode der elektronischen Übertragung oder Speicherung ist vollkommen sicher. Obwohl wir uns bemühen, Ihre Daten zu schützen, können wir keine absolute Sicherheit garantieren."
+      ]
+    },
+    "linksToOtherSites": {
+      "title": "Links zu anderen Websites",
+      "paragraphs": [
+        "Mero Chef und diese Website können Links zu Websites oder Diensten Dritter enthalten, einschließlich der Datenschutzrichtlinien unserer Dienstleister. Wir kontrollieren den Inhalt und die Datenschutzpraktiken dieser Websites nicht und sind dafür nicht verantwortlich.",
+        "Wir empfehlen, die Datenschutzrichtlinie jeder von Ihnen besuchten Drittwebsite zu lesen."
+      ]
+    },
+    "childrensPrivacy": {
+      "title": "Datenschutz für Kinder",
+      "paragraphs": [
+        "Mero Chef richtet sich nicht an Kinder unter 13 Jahren. Gilt örtlich ein höheres Alter für eigenständige Einwilligungen, ist dieses ebenfalls maßgeblich. Wenden Sie sich an {{email}}, wenn Sie glauben, dass Daten eines Kindes unzulässig übermittelt wurden."
+      ]
+    },
+    "changes": {
+      "title": "Änderungen dieser Datenschutzerklärung",
+      "paragraphs": [
+        "Wir können diese Datenschutzerklärung von Zeit zu Zeit aktualisieren. In diesem Fall passen wir das Gültigkeitsdatum am Ende dieser Seite an. Wir empfehlen, diese Erklärung regelmäßig auf Änderungen zu prüfen. Wenn wir Funktionen hinzufügen, die Ihre Daten auf neue Weise verarbeiten, etwa die Synchronisierung Ihres Vorrats in der Cloud, aktualisieren wir diese Erklärung, bevor sie verfügbar werden.",
+        "Aktualisierungen dieser Erklärung genehmigen für sich genommen keine neuen optionalen Verarbeitungen. Soweit erforderlich, holen wir für Änderungen von Zwecken oder der Weitergabe eine neue Genehmigung oder Einwilligung ein. Das Gültigkeitsdatum kennzeichnet die Version dieser Erklärung."
+      ]
+    },
+    "accountDeletion": {
+      "title": "Kontolöschung",
+      "paragraphs": [
+        "Wenn Sie ein Mero-Chef-Konto durch Anmeldung mit Google oder Mit Apple anmelden erstellt haben, können Sie es in der App löschen. Ihr Google- oder Apple-Konto wird dadurch nicht gelöscht. Umfang und Einschränkungen sind unten beschrieben."
+      ],
+      "subsections": [
+        {
+          "title": "Was gelöscht wird",
+          "paragraphs": [
+            "Der Vorgang in der App entfernt Ihr Mero-Chef-Kontoprofil (Kennung des Google- oder Apple-Kontos, E-Mail-Adresse und Anzeigename), alle Anmeldesitzungen auf allen Geräten, Ihre Abonnementdaten und Ihre Nutzungsdaten. Technische Protokolle und gegebenenfalls vorhandene Sicherungen sind von diesem automatischen Vorgang nicht vollständig erfasst; wenden Sie sich für eine Anfrage, die auch diese Daten einschließt, an {{email}}."
+          ]
+        },
+        {
+          "title": "Lokale Daten auf Ihrem Gerät",
+          "paragraphs": [
+            "Nach der Löschung meldet die App Sie ab, aber Ihr Vorrat, Ihre gespeicherten Rezepte und Ihre Einstellungen bleiben auf Ihrem Telefon, da sie es nie verlassen haben. Um sie zu entfernen, deinstallieren Sie die App oder löschen Sie ihren Speicher in den Geräteeinstellungen."
+          ]
+        },
+        {
+          "title": "So löschen Sie Ihr Konto in der App",
+          "paragraphs": [
+            "Führen Sie auf Ihrem Android- oder iOS-Gerät diese Schritte aus:"
+          ],
+          "ordered": true,
+          "list": [
+            "Öffnen Sie Mero Chef auf Ihrem Android- oder iOS-Gerät und stellen Sie sicher, dass Sie mit dem Internet verbunden sind.",
+            "Tippen Sie in der oberen Leiste auf das Personen-Symbol, um Ihr Konto zu öffnen. Wenn Sie zur Anmeldung aufgefordert werden, verwenden Sie dieselbe Methode wie bei der Erstellung: Google oder unter iOS Mit Apple anmelden. Wählen Sie unter Android das richtige Google-Profil, wenn Sie mehrere haben.",
+            "Tippen Sie auf Konto löschen.",
+            "Lesen Sie die Bestätigung, die erklärt, dass die Kontolöschung dauerhaft ist und nicht rückgängig gemacht werden kann.",
+            "Tippen Sie zur Bestätigung auf Löschen. Wählen Sie Abbrechen, wenn Sie nicht fortfahren möchten; Abbrechen entfernt keine Daten.",
+            "Warten Sie, bis die Löschung abgeschlossen ist. Falls ein Fehler erscheint, prüfen Sie Ihre Verbindung, melden Sie sich bei Bedarf erneut an und versuchen Sie es noch einmal."
+          ]
+        },
+        {
+          "title": "Nur lokale Nutzung (ohne Konto)",
+          "paragraphs": [
+            "Wenn Sie sich nie angemeldet haben, speichern wir keine Kontodaten zu Ihnen. Ihr Vorrat und Ihre Rezepte befinden sich nur auf Ihrem Telefon, und das Deinstallieren der App entfernt sie. Werbung und Spracherkennung können, wenn sie genutzt werden, auch ohne Konto Daten verarbeiten."
+          ]
+        },
+        {
+          "title": "Zeitpunkt",
+          "paragraphs": [
+            "Die von der Löschung in der App erfassten aktiven Daten werden entfernt, sobald der Server die Anfrage erfolgreich abgeschlossen hat. Das bedeutet nicht die sofortige Löschung von Protokollen, Sicherungen oder Daten, die bei Diensten Dritter liegen. Wenden Sie sich an {{email}}, um Umfang und Zeitpunkt einer weitergehenden Löschanfrage zu erfahren."
+          ]
+        },
+        {
+          "title": "Brauchen Sie Hilfe?",
+          "paragraphs": [
+            "Wenn Sie nicht auf die App zugreifen können, schreiben Sie uns von der E-Mail-Adresse Ihres Google-Kontos an {{email}}, und wir helfen Ihnen bei Anfragen zur Kontolöschung."
+          ]
+        },
+        {
+          "title": "Store-Abonnements und Apple-Autorisierung",
+          "paragraphs": [
+            "Das Löschen Ihres Mero-Chef-Kontos kündigt ein App-Store- oder Google-Play-Abonnement nicht automatisch; kündigen Sie es separat im Store. Das Entfernen einer Mero-Chef-Sitzung ist außerdem nicht dasselbe wie der Widerruf der Autorisierung für Mit Apple anmelden; diese verwalten Sie in Ihren Apple-Account-Einstellungen. Wenden Sie sich an {{email}}, wenn Sie bei einem dieser Vorgänge Hilfe benötigen."
+          ]
+        }
+      ]
+    },
+    "contactUs": {
+      "title": "Kontakt",
+      "paragraphs": [
+        "Wenn Sie Fragen oder Anregungen zu dieser Datenschutzerklärung oder zu unseren Datenpraktiken haben, schreiben Sie uns an {{email}}."
+      ]
+    }
+  },
+  "links": {
+    "heading": "Datenschutzrichtlinien Dritter",
+    "google": "Google Datenschutzerklärung",
+    "googlePlay": "Google Play",
+    "apple": "Apple-Datenschutzrichtlinie",
+    "admob": "Wie Google Werbedaten verwendet (AdMob)",
+    "openRouter": "OpenRouter Datenschutzerklärung",
+    "azure": "Microsoft-Datenschutzerklärung",
+    "mongoDB": "MongoDB-Datenschutzrichtlinie",
+    "redis": "Redis-Datenschutzrichtlinie"
+  }
+}

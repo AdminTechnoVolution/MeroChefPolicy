@@ -1,0 +1,301 @@
+{
+  "meta": {
+    "title": "Política de Privacidad",
+    "pageTitle": "Política de Privacidad de Mero Chef"
+  },
+  "header": {
+    "appName": "Mero Chef",
+    "subtitle": "Política de Privacidad"
+  },
+  "language": {
+    "label": "Idioma"
+  },
+  "footer": {
+    "effectiveDate": "Fecha de vigencia: {{date}}",
+    "contact": "¿Preguntas? Contáctanos en"
+  },
+  "sections": {
+    "introduction": {
+      "title": "Introducción",
+      "paragraphs": [
+        "Techno Volution (“nosotros”, “nos” o “nuestro”) opera Mero Chef, una aplicación para Android e iOS que lleva el control de los alimentos que tienes en casa, te avisa antes de que caduquen y usa inteligencia artificial para sugerir recetas. Esta Política de Privacidad explica cómo recopilamos, usamos y protegemos la información cuando utilizas la app Mero Chef y este sitio web.",
+        "Esta política describe nuestras prácticas de datos; leerla o usar Mero Chef no constituye por sí solo consentimiento para tratamientos opcionales. Puedes usar tu despensa, las alertas de existencias mínimas, los avisos de caducidad y tus recetas guardadas sin una cuenta, y esa información permanece en tu teléfono. Las funciones que usan inteligencia artificial requieren una cuenta. La publicidad, cuando esté presente, puede tratar datos aunque no hayas iniciado sesión."
+      ]
+    },
+    "informationCollection": {
+      "title": "Recopilación y uso de la información",
+      "paragraphs": [
+        "Mero Chef guarda tu despensa en tu teléfono. Lo demás que tratamos depende de las funciones que decidas usar."
+      ],
+      "subsections": [
+        {
+          "title": "Uso local (sin cuenta)",
+          "paragraphs": [
+            "Lo siguiente se guarda únicamente en tu dispositivo, en una base de datos local y en el almacenamiento privado de la app: los ingredientes que añades (nombre, cantidad, unidad, categoría, lugar de almacenamiento, fecha de caducidad y emoji); un registro de cuándo marcas algo como usado o lo eliminas, que sirve para calcular tu cifra de desperdicio; las cantidades mínimas que fijas para las alertas de reposición; las recetas que guardas y los pasos que has marcado; los alimentos que la app te ha sugerido antes, recordados por idioma y país para que aparezcan al instante la próxima vez; y tus preferencias de dieta.",
+            "Nada de esto se sube a menos que uses una función en línea descrita más abajo. En Android, Mero Chef desactiva para la app la copia de seguridad en la nube y la transferencia entre dispositivos, así que esta información no se copia a otro lugar de forma automática. En iOS, las copias de seguridad del sistema operativo, como iCloud o una copia en un ordenador, pueden incluir los datos de la app según los ajustes de tu dispositivo. Desinstalar la app o borrar su almacenamiento elimina los datos de tu dispositivo."
+          ]
+        },
+        {
+          "title": "Cuenta de Google opcional",
+          "paragraphs": [
+            "Para usar las funciones de IA inicias sesión con Google (o, en iOS, con Apple, como se describe más abajo). Desde Google Sign-In recibimos el identificador de tu cuenta de Google, tu correo electrónico y tu nombre visible, y los guardamos para crear y administrar tu cuenta de Mero Chef. No recibimos tu contraseña de Google ni otros datos de Google, como tus contactos. Google trata esta información conforme a su propia política de privacidad.",
+            "Al iniciar sesión, tu teléfono también envía un identificador de instalación aleatorio, generado por la app y no vinculado a tu ID de publicidad ni a identificadores de hardware, para poder distinguir tus sesiones en distintos teléfonos. Tus tokens de sesión se guardan en tu dispositivo en un almacenamiento seguro: el Android Keystore en Android y el Llavero (Keychain) en iOS."
+          ]
+        },
+        {
+          "title": "Inicio de sesión opcional con Apple",
+          "paragraphs": [
+            "En iOS, Iniciar sesión con Apple proporciona un identificador de cuenta de Apple y, cuando se facilitan, tu nombre y correo electrónico. Si eliges Ocultar mi correo, puede ser una dirección privada de retransmisión de Apple. Usamos estos datos y los tokens de autenticación para crear tu cuenta de Mero Chef y gestionar tu sesión. No recibimos tu contraseña de Apple."
+          ]
+        },
+        {
+          "title": "Funciones de IA",
+          "paragraphs": [
+            "Cuando usas una función de IA, la app envía a nuestra API la información que esa función necesita, y esta la pasa a un proveedor de IA y te devuelve el resultado. Según la función, puede incluir:"
+          ],
+          "list": [
+            "Recetas: los ingredientes que elegiste de tu despensa (nombre, cantidad, unidad, categoría y fecha de caducidad), el plato que escribiste si pediste uno concreto, tus opciones de dieta, el idioma de la app y tu código de país.",
+            "Fotos: una foto de un ticket o de un empaque que tomas con la cámara o eliges de tu galería o fototeca. Se reduce de tamaño y se comprime en tu teléfono y se envía para que se lea. Un ticket puede mostrar otros datos personales, como la tienda, dígitos de una tarjeta o números de fidelidad, así que fotografía solo la parte que necesitas.",
+            "Video de la cocina: un video de hasta 20 segundos que grabas o eliges. La app toma unos pocos fotogramas en tu teléfono y envía solo esos fotogramas, nunca el video.",
+            "Voz: cuando dictas ingredientes, el servicio de reconocimiento de voz de tu teléfono convierte tu voz en texto, y la app envía ese texto (hasta 1500 caracteres) para convertirlo en una lista de productos. Mero Chef no graba ni guarda audio y nunca lo recibe.",
+            "Sugerencias de nombres: mientras escribes el nombre de un ingrediente y tras una breve pausa, se envían el texto que escribiste, el idioma de la app y tu código de país para completar el nombre. Esto ocurre solo si has iniciado sesión; de lo contrario se usan los alimentos que ya están recordados en tu teléfono."
+          ]
+        },
+        {
+          "title": "Cómo se tratan las solicitudes de IA",
+          "paragraphs": [
+            "Nuestra API envía estas solicitudes a OpenRouter, que las dirige a un proveedor de modelos (por ejemplo, uno de los modelos Gemini de Google). Pedimos a OpenRouter que use solo proveedores que no recopilen datos para entrenamiento y que admitan retención cero de datos en las entradas y salidas de IA. Estos controles de enrutamiento se aplican al procesamiento del modelo; no significan que los metadatos técnicos, nuestros registros de diagnóstico o el contexto temporal de procesamiento nunca se conserven. OpenRouter y los proveedores de modelos tienen sus propias prácticas de datos.",
+            "No guardamos tus fotos, fotogramas, texto dictado ni lo que escribes, y nuestros registros solo anotan recuentos y tamaños (como cuántos ingredientes, el tamaño de una imagen o cuántos tokens se usaron), nunca el contenido. No incluimos tu nombre ni tu correo electrónico en estas solicitudes. Usa solo contenido que tengas derecho a compartir y evita fotografiar documentos con datos personales innecesarios."
+          ]
+        },
+        {
+          "title": "Suscripciones y verificación de compras",
+          "paragraphs": [
+            "Google Play en Android y la App Store de Apple en iOS procesan el pago de las suscripciones mensuales opcionales (Chef Junior y Chef Master). Para verificar las compras y darte acceso, la app envía a nuestro backend la información de compra de la tienda (un token de compra y el identificador del producto de Google Play, o datos firmados de la transacción de la App Store de Apple), y este le pide a la tienda que confirme la suscripción. A la compra se le adjunta un identificador seudónimo derivado de tu cuenta para que no pueda usarse en otra cuenta. También recibimos notificaciones de las tiendas sobre esas suscripciones, como renovaciones, cancelaciones y reembolsos.",
+            "Mero Chef no recibe los datos de tu tarjeta de pago. Administra la renovación y la cancelación en Google Play o, si te suscribiste en iOS, en los ajustes de tu cuenta de Apple."
+          ]
+        },
+        {
+          "title": "Qué guardamos sobre tu cuenta",
+          "paragraphs": [
+            "En nuestros servidores guardamos solo lo necesario para operar tu cuenta:"
+          ],
+          "list": [
+            "Cuenta: el identificador de tu cuenta de Google o de Apple, tu correo electrónico (que puede ser una dirección privada de retransmisión de Apple), tu nombre visible y la fecha en que se creó la cuenta.",
+            "Sesiones: un hash irreversible de cada token de inicio de sesión (nunca el token en sí), vinculado a tu cuenta y al identificador de instalación, con su fecha de vencimiento, además de los registros necesarios para terminar una sesión de inmediato cuando cierras sesión.",
+            "Suscripciones: el token de compra o los identificadores de transacción de la tienda, el producto, el plan, el estado, la fecha de vencimiento y el ajuste de renovación.",
+            "Uso: cuántas unidades de la cuota mensual de IA de tu plan has usado en el mes en curso."
+          ]
+        }
+      ]
+    },
+    "permissions": {
+      "title": "Permisos del dispositivo y controles",
+      "paragraphs": [
+        "Los permisos se usan solo para las funciones que eliges. Puedes rechazarlos o revocarlos en los ajustes de tu dispositivo; la función relacionada podría dejar de estar disponible."
+      ],
+      "subsections": [
+        {
+          "title": "Micrófono y reconocimiento de voz",
+          "paragraphs": [
+            "Dictar ingredientes usa el micrófono solo mientras grabas y se apoya en el servicio de reconocimiento de voz de tu teléfono para producir texto. En iOS, la app pide primero el permiso de micrófono y de reconocimiento de voz. Según el dispositivo, el idioma y el servicio, el audio puede ser procesado de forma remota por Apple, por Google o por el proveedor de voz configurado en tu teléfono; no se garantiza el procesamiento en el dispositivo. Mero Chef recibe y envía solo el texto resultante, no el audio. Detener o cancelar la grabación termina la captura del micrófono."
+          ]
+        },
+        {
+          "title": "Cámara, fotos y video",
+          "paragraphs": [
+            "En Android, Mero Chef no pide el permiso de cámara: las fotos y los videos los toma la app de cámara de tu teléfono, o los eliges con el selector de Android. En iOS, la app pide acceso a la cámara cuando tomas una foto o un video dentro de la app, y usa el selector de fotos del sistema para lo que eliges. En ambos casos la app recibe solo el archivo que elijas; elegir un elemento no da permiso para acceder a toda tu fototeca. Una foto o los fotogramas de un video se envían a nuestra API y a proveedores de IA como se describió arriba."
+          ]
+        },
+        {
+          "title": "Notificaciones",
+          "paragraphs": [
+            "Las alertas de caducidad, las de existencias bajas y los temporizadores de cocina se crean en tu teléfono; en iOS la app te pide permiso antes de mostrar notificaciones. No enviamos notificaciones push desde un servidor, y puedes desactivar las notificaciones en los ajustes de tu dispositivo."
+          ]
+        },
+        {
+          "title": "País e idioma",
+          "paragraphs": [
+            "Para adaptar las recetas al lugar donde vives, la app lee un código de país a partir del idioma de la app, de los ajustes de idioma y región del sistema o, en Android, del país de tu SIM o de la red. No usa GPS ni pide permiso de ubicación, y envía solo el código de país de dos letras con las solicitudes de recetas y de sugerencias."
+          ]
+        },
+        {
+          "title": "Identificador de publicidad",
+          "paragraphs": [
+            "Cuando haya publicidad, Google AdMob usa el identificador de publicidad de tu dispositivo sujeto a los ajustes de tu dispositivo y al consentimiento aplicable, como se describe en la sección de Publicidad. En iOS, el identificador solo está disponible para seguimiento si lo permites cuando la app te lo pregunta (App Tracking Transparency). Esto es independiente de las funciones de micrófono, cámara y notificaciones."
+          ]
+        },
+        {
+          "title": "A qué no accede Mero Chef",
+          "paragraphs": [
+            "Mero Chef no solicita acceso a tu ubicación, contactos, calendario, datos de llamadas o mensajes de texto, ni a tus archivos. No integramos SDK de analítica ni de reporte de fallos para rastrear tu comportamiento dentro de la app."
+          ]
+        }
+      ]
+    },
+    "logData": {
+      "title": "Datos de registro",
+      "paragraphs": [
+        "Cuando usas el inicio de sesión, las suscripciones o las funciones de IA, nuestros servidores de API pueden recopilar automáticamente datos técnicos de registro, como tu dirección IP, la fecha y hora y la ruta de las solicitudes, el estado y el tiempo de respuesta, un identificador de solicitud y diagnósticos de errores. Usamos esta información para mantener, proteger y mejorar nuestros servicios, y tu dirección IP también se usa para limitar el abuso en la cantidad de solicitudes. El contenido de las solicitudes, como tu despensa, tus fotos y tus textos, y los tokens de inicio de sesión no se escriben en nuestros registros.",
+        "Aparte de la publicidad descrita más abajo, Mero Chef no integra Firebase Analytics ni SDK de analítica de terceros similares para rastrear tu comportamiento dentro de la app."
+      ]
+    },
+    "cookies": {
+      "title": "Cookies",
+      "paragraphs": [
+        "Este sitio web guarda el idioma que seleccionas en el localStorage del navegador. Esta preferencia no se usa para publicidad ni para seguimiento del comportamiento. La página no instala cookies de seguimiento ni balizas web.",
+        "Las aplicaciones Mero Chef para Android e iOS no usan cookies web. Tus tokens de inicio de sesión y tus preferencias se guardan en tu dispositivo con mecanismos de almacenamiento seguro del sistema operativo, como el Android Keystore y el Llavero (Keychain) de iOS."
+      ]
+    },
+    "advertising": {
+      "title": "Publicidad",
+      "paragraphs": [
+        "Las apps Mero Chef para Android e iOS muestran, o podrán empezar a mostrar en una versión próxima, anuncios en banner servidos por Google AdMob. Esta sección se aplica desde la versión de la app que incluya publicidad. AdMob y sus socios publicitarios pueden recopilar identificadores del dispositivo (como el identificador de publicidad de tu dispositivo), dirección IP, ubicación aproximada y datos de uso de la app para servir, medir y, cuando lo consientas, personalizar los anuncios. No enviamos a AdMob tu despensa, tus recetas, tus fotos ni los datos de tu cuenta.",
+        "En iOS, la app solicita permiso de App Tracking Transparency (ATT) antes de acceder al identificador publicitario para seguimiento. Si lo rechazas, ese identificador no está disponible para seguimiento; pueden seguir apareciendo anuncios y AdMob puede tratar datos técnicos para mostrarlos. En Android, los identificadores de publicidad están sujetos a los ajustes de tu dispositivo y al consentimiento publicitario aplicable; puedes restablecer o eliminar tu ID de publicidad, y desactivar la personalización de anuncios, en los ajustes de Google de tu dispositivo. Puedes revisar o limitar estos permisos en los ajustes del dispositivo.",
+        "En Android, la app integra la User Messaging Platform (UMP) de Google para pedir el consentimiento publicitario donde se exige, como en el EEE, el Reino Unido y Suiza, y para que puedas cambiar tu elección más adelante. En iOS, la app solicita permiso de App Tracking Transparency (ATT); ATT es independiente del consentimiento publicitario requerido en el EEE, el Reino Unido o Suiza, que se gestiona por separado cuando corresponda. Puedes cambiar los permisos de la plataforma en los ajustes del dispositivo y escribir a {{email}} sobre las opciones de privacidad publicitaria."
+      ]
+    },
+    "serviceProviders": {
+      "title": "Proveedores de servicios",
+      "paragraphs": [
+        "Terceros tratan información para la autenticación, la verificación de suscripciones, el reconocimiento de voz, la publicidad, la IA, la infraestructura y los servicios de base de datos, como se describe en esta política. Sus fines y prácticas de datos difieren; revisa las políticas pertinentes a continuación.",
+        "Cada proveedor opera bajo su propia política de privacidad. Te recomendamos revisar esas políticas mediante los enlaces siguientes."
+      ],
+      "list": [
+        "Google — Google Sign-In, y Google Play Billing y la API de Google Play Developer para las suscripciones opcionales",
+        "Apple — Iniciar sesión con Apple, suscripciones de la App Store y reconocimiento de voz en iOS",
+        "Google AdMob — publicidad en las apps Mero Chef para Android e iOS, cuando haya publicidad",
+        "OpenRouter y los proveedores de modelos que atienden las solicitudes — procesamiento de texto e imágenes para las funciones de IA",
+        "Microsoft Azure — alojamiento de la API de Mero Chef",
+        "MongoDB — servicio de base de datos para los registros de cuenta, suscripción y uso",
+        "Redis — almacén en memoria para las sesiones de inicio de sesión, alojado con nuestro proveedor de nube",
+        "Google o el servicio de reconocimiento de voz configurado — transcripción de voz en Android"
+      ]
+    },
+    "internationalTransfers": {
+      "title": "Tratamiento internacional",
+      "paragraphs": [
+        "Nuestros proveedores de alojamiento, base de datos, autenticación, publicidad, reconocimiento de voz e IA pueden tratar datos en países distintos al tuyo. La ubicación depende del proveedor y de la configuración del servicio. Las transferencias y el tratamiento internacionales están sujetos a la ley aplicable y a las garantías que se exijan. Escribe a {{email}} para obtener información sobre los destinatarios, las ubicaciones y las garantías relevantes para tus datos; esta política no afirma que todos los datos permanezcan en un solo país."
+      ]
+    },
+    "retention": {
+      "title": "Conservación de datos",
+      "paragraphs": [
+        "Los datos locales permanecen en tu dispositivo hasta que los elimines, desinstales la app o borres el almacenamiento de la app. Los archivos y las copias que hagas tú mismo son independientes y están bajo tu control.",
+        "Tus registros de cuenta, suscripción y uso se conservan para ofrecerte tu cuenta, tu plan y su cuota mensual hasta que elimines tu cuenta o los datos se eliminen de otra forma. Las sesiones terminan al vencer o cuando cierras sesión. La conservación de los registros técnicos, de los registros relacionados con compras y de las copias de seguridad, cuando existan, depende de su finalidad operativa, de las necesidades de seguridad y de las obligaciones legales aplicables. La conservación por parte de los proveedores de IA se describe en la sección de IA; no hay un único plazo de eliminación para todas las categorías.",
+        "Para conocer la conservación aplicable a un registro específico, o para una solicitud que incluya registros o copias de seguridad, escribe a {{email}}. No prometemos que eliminar una cuenta borre al instante todas las copias en todos los servicios o dispositivos."
+      ]
+    },
+    "privacyRights": {
+      "title": "Tus derechos y solicitudes de privacidad",
+      "paragraphs": [
+        "Techno Volution opera Mero Chef y es el contacto responsable de sus prácticas de datos. Envía tus preguntas, solicitudes y quejas sobre privacidad a {{email}}. Según la ley aplicable, puedes solicitar acceso, una copia de tus datos, rectificación, eliminación, limitación, portabilidad u oposición al tratamiento, y retirar tu consentimiento cuando el tratamiento se base en él.",
+        "Describe tu solicitud e identifica la cuenta afectada. Podemos pedirte la información razonablemente necesaria para verificar tu identidad; no envíes contraseñas, datos completos de tarjetas de pago ni documentos sensibles innecesarios. Las solicitudes se atienden dentro de los plazos que exija la ley aplicable, explicando las excepciones permitidas. También puedes presentar una queja ante la autoridad de protección de datos competente, incluida la SIC de Colombia cuando corresponda.",
+        "Cuando la ley aplicable exija una base legal, tu cuenta y los servicios en línea que solicitas se basan en la prestación de esos servicios; la seguridad y el mantenimiento del servicio pueden basarse en intereses legítimos cuando se permita; el tratamiento opcional que requiere consentimiento, como la personalización de anuncios, se basa en ese consentimiento; y la conservación de registros exigida por la ley se basa en obligaciones legales. Retirar el consentimiento no invalida el tratamiento lícito anterior y puede impedir que funcione la función opcional relacionada."
+      ]
+    },
+    "security": {
+      "title": "Seguridad",
+      "paragraphs": [
+        "Tomamos medidas razonables para proteger tu información, entre ellas el cifrado HTTPS en tránsito, tokens de acceso de corta duración y tokens de renovación de un solo uso para acceder a la API, el almacenamiento en nuestros servidores únicamente de un hash irreversible de cada token de renovación, la revocación inmediata de las sesiones cuando cierras sesión o eliminas tu cuenta, y la protección de tus tokens de inicio de sesión en tu teléfono con el Android Keystore o el Llavero (Keychain) de iOS.",
+        "Ningún método de transmisión o almacenamiento electrónico es completamente seguro. Aunque nos esforzamos por proteger tus datos, no podemos garantizar una seguridad absoluta."
+      ]
+    },
+    "linksToOtherSites": {
+      "title": "Enlaces a otros sitios",
+      "paragraphs": [
+        "Mero Chef y este sitio web pueden contener enlaces a sitios web o servicios de terceros, incluidas las políticas de privacidad de nuestros proveedores de servicios. No controlamos ni somos responsables del contenido ni de las prácticas de privacidad de esos sitios.",
+        "Te recomendamos revisar la política de privacidad de cada sitio de terceros que visites."
+      ]
+    },
+    "childrensPrivacy": {
+      "title": "Privacidad de los menores",
+      "paragraphs": [
+        "Mero Chef no está dirigido a menores de 13 años. Cuando la ley local establezca una edad mayor para consentir de forma independiente, también se aplica ese requisito. Escribe a {{email}} si crees que se han proporcionado datos de un menor de forma indebida."
+      ]
+    },
+    "changes": {
+      "title": "Cambios en esta Política de Privacidad",
+      "paragraphs": [
+        "Podemos actualizar esta Política de Privacidad de vez en cuando. Cuando lo hagamos, modificaremos la fecha de vigencia al pie de esta página. Te recomendamos revisar esta política periódicamente. Si añadimos funciones que traten tus datos de formas nuevas, como sincronizar tu despensa en la nube, actualizaremos esta política antes de que estén disponibles.",
+        "Las actualizaciones de esta política no autorizan por sí solas nuevos tratamientos opcionales. Cuando sea necesario, pediremos una nueva autorización o consentimiento para los cambios de finalidades o de comunicación de datos. La fecha de vigencia identifica la versión de esta política."
+      ]
+    },
+    "accountDeletion": {
+      "title": "Eliminación de cuenta",
+      "paragraphs": [
+        "Si creaste una cuenta de Mero Chef iniciando sesión con Google o con Apple, puedes eliminarla en la app. Esto no elimina tu cuenta de Google ni de Apple. El alcance y las limitaciones se describen a continuación."
+      ],
+      "subsections": [
+        {
+          "title": "Qué se elimina",
+          "paragraphs": [
+            "El proceso dentro de la app elimina el perfil de tu cuenta de Mero Chef (identificador de la cuenta de Google o de Apple, correo electrónico y nombre visible), todas las sesiones iniciadas en cualquier dispositivo, tus registros de suscripción y tus registros de uso. Los registros técnicos y las copias de seguridad, cuando existan, no quedan todos cubiertos por este proceso automático; escribe a {{email}} para una solicitud que incluya esos registros."
+          ]
+        },
+        {
+          "title": "Datos locales en tu dispositivo",
+          "paragraphs": [
+            "Tras la eliminación, la app cierra tu sesión, pero tu despensa, tus recetas guardadas y tus ajustes permanecen en tu teléfono, porque nunca salieron de él. Para eliminarlos, desinstala la app o borra su almacenamiento en los ajustes de tu dispositivo."
+          ]
+        },
+        {
+          "title": "Cómo eliminar tu cuenta en la app",
+          "paragraphs": [
+            "Sigue estos pasos en tu dispositivo Android o iOS:"
+          ],
+          "ordered": true,
+          "list": [
+            "Abre Mero Chef en tu dispositivo Android o iOS y asegúrate de tener conexión a internet.",
+            "Toca el ícono de persona en la barra superior para abrir tu cuenta. Si se te pide iniciar sesión, usa el mismo método con el que la creaste: Google o, en iOS, Iniciar sesión con Apple. En Android, elige el perfil de Google correcto si tienes varios.",
+            "Toca Eliminar cuenta.",
+            "Lee la confirmación que explica que la eliminación de la cuenta es permanente y no se puede deshacer.",
+            "Toca Eliminar para confirmar. Elige Cancelar si no deseas continuar; cancelar no elimina ningún dato.",
+            "Espera a que termine la eliminación. Si aparece un error, revisa tu conexión, inicia sesión de nuevo si hace falta y vuelve a intentarlo."
+          ]
+        },
+        {
+          "title": "Uso solo local (sin cuenta)",
+          "paragraphs": [
+            "Si nunca iniciaste sesión, no tenemos datos de cuenta sobre ti. Tu despensa y tus recetas están solo en tu teléfono, y desinstalar la app las elimina. La publicidad y el reconocimiento de voz, cuando se usan, pueden tratar datos incluso sin una cuenta."
+          ]
+        },
+        {
+          "title": "Plazo",
+          "paragraphs": [
+            "Los registros activos cubiertos por la eliminación dentro de la app se eliminan cuando el servidor completa la solicitud con éxito. Esto no implica el borrado inmediato de registros, copias de seguridad ni de datos en poder de servicios de terceros. Escribe a {{email}} para conocer el alcance y el plazo de una solicitud de eliminación más amplia."
+          ]
+        },
+        {
+          "title": "¿Necesitas ayuda?",
+          "paragraphs": [
+            "Si no puedes acceder a la app, escríbenos a {{email}} desde el correo de tu cuenta de Google y te ayudaremos con las solicitudes de eliminación de cuenta."
+          ]
+        },
+        {
+          "title": "Suscripciones de las tiendas y autorización de Apple",
+          "paragraphs": [
+            "Eliminar tu cuenta de Mero Chef no cancela automáticamente una suscripción de la App Store ni de Google Play; cancélala por separado en la tienda. Eliminar una sesión de Mero Chef también es distinto de revocar la autorización de Iniciar sesión con Apple; puedes gestionar esa autorización en los ajustes de tu cuenta de Apple. Escribe a {{email}} si necesitas ayuda con cualquiera de estos procesos."
+          ]
+        }
+      ]
+    },
+    "contactUs": {
+      "title": "Contáctanos",
+      "paragraphs": [
+        "Si tienes preguntas o sugerencias sobre esta Política de Privacidad o sobre nuestras prácticas de datos, escríbenos a {{email}}."
+      ]
+    }
+  },
+  "links": {
+    "heading": "Políticas de privacidad de terceros",
+    "google": "Política de Privacidad de Google",
+    "googlePlay": "Google Play",
+    "apple": "Política de privacidad de Apple",
+    "admob": "Cómo usa Google los datos publicitarios (AdMob)",
+    "openRouter": "Política de Privacidad de OpenRouter",
+    "azure": "Declaración de privacidad de Microsoft",
+    "mongoDB": "Política de privacidad de MongoDB",
+    "redis": "Política de privacidad de Redis"
+  }
+}

@@ -86,6 +86,14 @@
             "Abonnements : le jeton d’achat ou les identifiants de transaction de la boutique, le produit, la formule, l’état, la date d’expiration et le réglage de renouvellement.",
             "Utilisation : le nombre d’unités du quota mensuel d’IA de votre formule que vous avez utilisées pendant le mois en cours."
           ]
+        },
+        {
+          "title": "Master partagé",
+          "paragraphs": [
+            "Le titulaire de Chef Master peut inviter une personne avec son adresse e-mail et un code valable 48 heures. Nous conservons les identifiants des deux comptes, l’adresse de l’invitation, son expiration et une empreinte du code, jamais le code original. Le destinataire se connecte avec l’adresse invitée pour accepter. Chaque personne garde son propre quota mensuel d’IA.",
+            "Le titulaire et le destinataire peuvent voir l’adresse e-mail et le nom affiché de l’autre compte. Partager Master ne partage ni le garde-manger, ni les recettes enregistrées, ni les préférences. Vous pouvez envoyer le code avec la fonction de partage de votre appareil ; le service choisi traite le message selon ses propres pratiques.",
+            "Le titulaire peut annuler l’invitation ou retirer le destinataire, et chacun peut mettre fin au partage dans l’app. La suppression d’un compte supprime aussi sa relation de partage. À l’expiration de Master, l’accès partagé est suspendu mais la relation est conservée pour le renouvellement ; rejoindre ou quitter ne remet pas à zéro l’utilisation mensuelle."
+          ]
         }
       ]
     },

@@ -86,6 +86,14 @@
             "Assinaturas: o token de compra ou os identificadores de transação da loja, o produto, o plano, o status, a data de expiração e a configuração de renovação.",
             "Uso: quantas unidades da cota mensal de IA do seu plano você usou no mês atual."
           ]
+        },
+        {
+          "title": "Master compartilhado",
+          "paragraphs": [
+            "O titular do Chef Master pode convidar uma pessoa pelo e-mail e um código válido por 48 horas. Guardamos os identificadores das duas contas, o e-mail do convite, o vencimento e um hash do código; não guardamos o código original. Para aceitar, a pessoa entra com o e-mail convidado. Cada pessoa mantém sua própria cota mensal de IA.",
+            "O titular e a pessoa convidada podem ver o e-mail e o nome visível da outra conta. Compartilhar Master não compartilha a despensa, as receitas salvas ou as preferências. Você pode enviar o código pela função de compartilhamento do dispositivo; o serviço escolhido trata a mensagem conforme suas próprias práticas.",
+            "O titular pode cancelar o convite ou remover a pessoa, e ambos podem encerrar a relação no app. Excluir a conta também exclui sua relação de acesso compartilhado. Se Master vencer, o acesso compartilhado fica suspenso e a relação permanece para a renovação; entrar ou sair não reinicia o uso mensal."
+          ]
         }
       ]
     },

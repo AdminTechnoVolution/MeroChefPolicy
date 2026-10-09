@@ -86,6 +86,14 @@
             "Suscripciones: el token de compra o los identificadores de transacción de la tienda, el producto, el plan, el estado, la fecha de vencimiento y el ajuste de renovación.",
             "Uso: cuántas unidades de la cuota mensual de IA de tu plan has usado en el mes en curso."
           ]
+        },
+        {
+          "title": "Master compartido",
+          "paragraphs": [
+            "Un titular de Chef Master puede invitar a una persona mediante su correo y un código válido durante 48 horas. Guardamos los identificadores de las dos cuentas, el correo de la invitación, su vencimiento y un hash del código; no guardamos el código original. Para aceptar, la persona inicia sesión con el correo invitado. Cada persona conserva su cuota mensual de IA independiente.",
+            "El titular y la persona invitada pueden ver el correo y el nombre visible de la otra cuenta. Compartir Master no comparte la despensa, las recetas guardadas ni las preferencias. Puedes enviar el código con la función de compartir de tu dispositivo; el servicio que elijas tratará ese mensaje conforme a sus propias prácticas.",
+            "El titular puede cancelar una invitación o retirar a la persona invitada, y cualquiera puede terminar la relación desde la app. Eliminar una cuenta elimina también su relación de acceso compartido. Si vence Master, suspendemos el acceso compartido pero conservamos la relación para recuperarlo al renovar; no reiniciamos el uso mensual al entrar o salir."
+          ]
         }
       ]
     },

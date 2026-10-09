@@ -86,6 +86,14 @@
             "Abonnements: das Kauftoken oder die Transaktionskennungen des Stores, das Produkt, den Tarif, den Status, das Ablaufdatum und die Verlängerungseinstellung.",
             "Nutzung: wie viele Einheiten des monatlichen KI-Kontingents Ihres Tarifs Sie im laufenden Monat verbraucht haben."
           ]
+        },
+        {
+          "title": "Geteiltes Master",
+          "paragraphs": [
+            "Der Inhaber von Chef Master kann eine Person per E-Mail und einem 48 Stunden gültigen Code einladen. Wir speichern die Kennungen beider Konten, die Einladungsadresse, das Ablaufdatum und einen Hash des Codes, niemals den ursprünglichen Code. Zum Annehmen meldet sich die Person mit der eingeladenen Adresse an. Jede Person behält ihr eigenes monatliches KI-Kontingent.",
+            "Inhaber und eingeladene Person können die E-Mail-Adresse und den Anzeigenamen des anderen Kontos sehen. Das Teilen von Master teilt keine Vorräte, gespeicherten Rezepte oder Einstellungen. Der Code kann über die Teilen-Funktion des Geräts versendet werden; der gewählte Dienst verarbeitet die Nachricht nach seinen eigenen Regeln.",
+            "Der Inhaber kann Einladungen stornieren oder die Person entfernen; beide können die Verbindung in der App beenden. Beim Löschen eines Kontos wird auch seine Freigabeverbindung gelöscht. Läuft Master ab, pausiert der geteilte Zugang, die Verbindung bleibt für eine Verlängerung bestehen. Beitreten oder Verlassen setzt die monatliche Nutzung nicht zurück."
+          ]
         }
       ]
     },

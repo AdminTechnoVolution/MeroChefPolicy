@@ -19,7 +19,7 @@ Edit `src/config/site.ts` to change global settings:
 | Constant | Value | Purpose |
 |----------|-------|---------|
 | `CONTACT_EMAIL` | `privacy+merochef@techno-volution.com` | Contact address shown in the policy |
-| `EFFECTIVE_DATE` | `2026-10-08` | Policy effective date (ISO format). Change it whenever the policy text changes |
+| `EFFECTIVE_DATE` | `2026-10-09` | Policy effective date (ISO format). Change it whenever the policy text changes |
 | `APP_NAME` | `Mero Chef` | App name used in metadata |
 | `SITE_URL` | `https://merochef.com` | The site's address |
 
@@ -53,7 +53,7 @@ This text describes what the apps and the API do; when any of them changes, chan
 - The AI requests go through OpenRouter with zero-data-retention routing and no data collection for training (see `ChefApi/src/llm/openRouterClient.ts`).
 - **Advertising** (Google AdMob banners; Google's User Messaging Platform for consent on Android, App Tracking Transparency on iOS) is described ahead of the version that adds it. When it ships, also declare the advertising ID in Play Console and the tracking answers in App Store Connect.
 - **iOS** is described ahead of its release, like advertising: Sign in with Apple, App Store subscriptions, the Keychain, and the camera, microphone, speech-recognition, notification and tracking prompts. The iOS app and `ChefApi` must really do this (today the API accepts only Google sign-in and verifies only Google Play purchases), or the policy and the Play Console/App Store privacy answers must be adjusted. The iOS camera behaviour (asks for camera access; photo picker needs no permission) and the "person icon in the top bar" step of account deletion are assumptions to confirm when the iOS app exists.
-- Cloud sync and household sharing are not built yet. When they are, add them to **Information Collection** and **Retention** before they go live.
+- Master sharing grants one invited account its own monthly allowance. The policy covers email-bound invitations, hashed codes, visible account names and emails, and relationship deletion. Pantry and recipes remain local; cloud sync is not built yet.
 
 ## Deploy
 

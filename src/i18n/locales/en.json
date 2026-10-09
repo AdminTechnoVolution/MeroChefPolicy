@@ -86,6 +86,14 @@
             "Subscriptions: the store’s purchase token or transaction identifiers, product, plan, status, expiry date, and renewal setting.",
             "Usage: how many units of your plan’s monthly AI allowance you have used in the current month."
           ]
+        },
+        {
+          "title": "Shared Master",
+          "paragraphs": [
+            "A Chef Master owner can invite one person using their email and a code valid for 48 hours. We store both account identifiers, the invitation email, its expiry and a hash of the code; we do not store the original code. The recipient signs in with the invited email to accept. Each person keeps an independent monthly AI allowance.",
+            "The owner and recipient can see each other’s email and display name. Sharing Master does not share the pantry, saved recipes or preferences. You can send the code through your device’s share feature; the service you choose handles that message under its own practices.",
+            "The owner can cancel an invitation or remove the recipient, and either person can end the relationship in the app. Deleting an account also deletes its sharing relationship. When Master expires, shared access pauses but the relationship stays for renewal; joining or leaving does not reset monthly usage."
+          ]
         }
       ]
     },

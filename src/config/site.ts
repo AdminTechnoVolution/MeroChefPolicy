@@ -1,7 +1,7 @@
 export const APP_NAME = 'Mero Chef';
 export const CONTACT_EMAIL = 'privacy+merochef@techno-volution.com';
 export const SITE_URL = 'https://merochef.com';
-export const EFFECTIVE_DATE = '2026-10-08';
+export const EFFECTIVE_DATE = '2026-10-09';
 
 export const THIRD_PARTY_LINKS = [
   {

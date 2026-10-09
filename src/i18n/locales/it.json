@@ -86,6 +86,14 @@
             "Abbonamenti: il token di acquisto o gli identificativi della transazione dello store, il prodotto, il piano, lo stato, la data di scadenza e l’impostazione di rinnovo.",
             "Utilizzo: quante unità della quota mensile di IA del tuo piano hai usato nel mese in corso."
           ]
+        },
+        {
+          "title": "Master condiviso",
+          "paragraphs": [
+            "Il titolare di Chef Master può invitare una persona tramite e-mail e un codice valido per 48 ore. Conserviamo gli identificativi dei due account, l’e-mail dell’invito, la scadenza e un hash del codice, mai il codice originale. La persona accede con l’e-mail invitata per accettare. Ognuno mantiene la propria quota mensile di IA.",
+            "Il titolare e la persona invitata possono vedere l’e-mail e il nome visualizzato dell’altro account. Condividere Master non condivide dispensa, ricette salvate o preferenze. Puoi inviare il codice tramite la funzione di condivisione del dispositivo; il servizio scelto tratta il messaggio secondo le proprie pratiche.",
+            "Il titolare può annullare un invito o rimuovere la persona, ed entrambi possono terminare la relazione nell’app. Eliminare un account elimina anche la sua relazione di condivisione. Quando Master scade, l’accesso condiviso è sospeso ma la relazione resta per il rinnovo; entrare o uscire non azzera l’utilizzo mensile."
+          ]
         }
       ]
     },

@@ -116,7 +116,7 @@
         {
           "title": "Country and language",
           "paragraphs": [
-            "To suit recipes to where you live, the app reads a country code from your app language, your system language and region settings, or, on Android, your SIM or network country. It does not use GPS or request location permission, and it sends only the two-letter country code with recipe and suggestion requests."
+            "The default region comes from language, system settings, or the SIM or network country, depending on the information available on your device. On Android and iOS, when the feature is available in your version, you can optionally enable “Use precise location for recipes” and grant permission while using the app. When requesting a recipe, the app uses location and the device geocoding service to determine the country and city, when available. The app does not save coordinates or addresses; only country and city are sent to our API and AI providers to tailor the recipe. If you disable the option, revoke permission, or location is unavailable, the default region is used. Background location is not requested."
           ]
         },
         {
@@ -128,7 +128,7 @@
         {
           "title": "What Mero Chef does not access",
           "paragraphs": [
-            "Mero Chef does not request access to your location, contacts, calendar, call or text message data, or files. We do not integrate analytics or crash-reporting SDKs to track your behavior inside the app."
+            "Mero Chef does not request access to your contacts, calendar, call or text message data, or files. We do not integrate analytics or crash-reporting SDKs to track your behavior inside the app."
           ]
         }
       ]

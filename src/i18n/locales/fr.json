@@ -116,7 +116,7 @@
         {
           "title": "Pays et langue",
           "paragraphs": [
-            "Pour adapter les recettes au lieu où vous vivez, l’application lit un code pays à partir de la langue de l’application, des réglages de langue et de région du système ou, sur Android, du pays de votre carte SIM ou du réseau. Elle n’utilise pas le GPS et ne demande pas l’autorisation de localisation, et n’envoie que le code pays à deux lettres avec les requêtes de recettes et de suggestions."
+            "La région par défaut vient de la langue, des réglages du système ou du pays de la SIM ou du réseau, selon les informations disponibles sur votre appareil. Sur Android et iOS, lorsque la fonction est disponible dans votre version, vous pouvez activer la localisation précise pour les recettes et autoriser l’accès pendant l’utilisation de l’app. Lors d’une demande de recette, la localisation et le service de géocodage du téléphone déterminent le pays et la ville, si disponible. L’app ne conserve ni coordonnées ni adresses ; seuls le pays et la ville sont transmis à notre API et aux fournisseurs d’IA. Sans option, autorisation ou localisation disponible, la région par défaut est utilisée. Aucune localisation en arrière-plan n’est demandée."
           ]
         },
         {
@@ -128,7 +128,7 @@
         {
           "title": "Ce à quoi Mero Chef n’accède pas",
           "paragraphs": [
-            "Mero Chef ne demande pas l’accès à votre position, à vos contacts, à votre agenda, à vos données d’appels ou de SMS, ni à vos fichiers. Nous n’intégrons aucun SDK d’analyse ou de rapport de plantages pour suivre votre comportement dans l’application."
+            "Mero Chef ne demande pas accès aux contacts, au calendrier, aux appels, aux SMS ou aux fichiers. Aucun SDK d’analyse ou de rapport de plantage ne suit votre comportement dans l’app."
           ]
         }
       ]

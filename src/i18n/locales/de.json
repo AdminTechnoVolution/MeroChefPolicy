@@ -116,7 +116,7 @@
         {
           "title": "Land und Sprache",
           "paragraphs": [
-            "Um Rezepte an Ihren Wohnort anzupassen, liest die App einen Ländercode aus der App-Sprache, den Sprach- und Regionseinstellungen des Systems oder, unter Android, dem Land Ihrer SIM-Karte oder des Netzes. Sie nutzt kein GPS, fragt nicht nach der Standortberechtigung und sendet nur den zweistelligen Ländercode mit Rezept- und Vorschlagsanfragen."
+            "Die Standardregion stammt aus Sprache, Systemeinstellungen oder dem SIM- oder Netzland, je nach verfügbaren Geräteinformationen. Auf Android und iOS kannst du, sobald die Funktion in deiner Version verfügbar ist, den genauen Standort für Rezepte optional aktivieren und Zugriff während der App-Nutzung erlauben. Bei einer Rezeptanfrage bestimmen Standort und Geocodierungsdienst des Geräts Land und Stadt, soweit verfügbar. Die App speichert keine Koordinaten oder Adressen; nur Land und Stadt werden an unsere API und KI-Anbieter gesendet. Ohne Option, Berechtigung oder verfügbaren Standort gilt die Standardregion. Es wird kein Hintergrundstandort angefordert."
           ]
         },
         {
@@ -128,7 +128,7 @@
         {
           "title": "Worauf Mero Chef nicht zugreift",
           "paragraphs": [
-            "Mero Chef fordert keinen Zugriff auf Ihren Standort, Ihre Kontakte, Ihren Kalender, Anruf- oder SMS-Daten oder Ihre Dateien an. Wir binden keine Analyse- oder Absturzberichts-SDKs ein, um Ihr Verhalten in der App zu verfolgen."
+            "Mero Chef fordert keinen Zugriff auf Kontakte, Kalender, Anruf- oder SMS-Daten oder Dateien an. Wir integrieren keine Analyse- oder Absturzbericht-SDKs, um dein Verhalten in der App zu verfolgen."
           ]
         }
       ]
